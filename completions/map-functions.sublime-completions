@@ -1,0 +1,33 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "map-get()\t sass",
+            "contents": "map-get(${1:\\$map}, ${2:\\$key})$0"
+        },
+        {
+            "trigger": "map-merge()\t sass",
+            "contents": "map-merge(${1:\\$map1}, ${2:\\$map2})$0"
+        },
+        {
+            "trigger": "map-remove()\t sass",
+            "contents": "map-remove(${1:\\$map}, ${2:\\$keys…})$0"
+        },
+        {
+            "trigger": "map-keys()\t sass",
+            "contents": "map-keys(${1:\\$map})$0"
+        },
+        {
+            "trigger": "map-values()\t sass",
+            "contents": "map-values(${1:\\$map})$0"
+        },
+        {
+            "trigger": "map-has-key()\t sass",
+            "contents": "map-has-key(${1:\\$map}, ${2:\\$key})$0"
+        },
+        {
+            "trigger": "keywords()\t sass",
+            "contents": "keywords(${1:\\$args})$0"
+        }
+    ]
+}

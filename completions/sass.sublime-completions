@@ -1,0 +1,97 @@
+{
+    "scope": "source.scss, source.sass",
+    "completions": [
+        {
+            "trigger": "import file;\t sass",
+            "contents": "@import ${1:file};$0"
+        },
+        {
+            "trigger": "import url(url);\t sass",
+            "contents": "@import url(${1:url});$0"
+        },
+        {
+            "trigger": "media rule {}\t sass",
+            "contents": "@media ${1:rule} {$2}$0"
+        },
+        {
+            "trigger": "extend selector;\t sass",
+            "contents": "@extend ${1:selector};$0"
+        },
+        {
+            "trigger": "at-root {}\t sass",
+            "contents": "@at-root {${1}}$0"
+        },
+        {
+            "trigger": "at-root selector {}\t sass",
+            "contents": "@at-root ${1:selector} {$2}$0"
+        },
+        {
+            "trigger": "debug expression;\t sass",
+            "contents": "@debug ${1:expression};$0"
+        },
+        {
+            "trigger": "warn expression;\t sass",
+            "contents": "@warn ${1:expression};$0"
+        },
+        {
+            "trigger": "error expression;\t sass",
+            "contents": "@error ${1:expression};$0"
+        },
+        {
+            "trigger": "if(condition, isTrue, isFalse);\t sass",
+            "contents": "if(${1:condition}, ${2:isTrue}, ${3:isFalse});$0"
+        },
+        {
+            "trigger": "if condition {}\t sass",
+            "contents": "@if ${1:condition} {$2}$0"
+        },
+        {
+            "trigger": "else if condition {}\t sass",
+            "contents": "@else if ${1:condition} {$2}$0"
+        },
+        {
+            "trigger": "else {}\t sass",
+            "contents": "@else {$2}$0"
+        },
+        {
+            "trigger": "for $var from <start> through <end> {}\t sass",
+            "contents": "@for ${1:\\$var} from ${2:<start>} through ${3:<end>} {$4}$0"
+        },
+        {
+            "trigger": "for $var from <start> to <end> {}\t sass",
+            "contents": "@for ${1:\\$var} from ${2:<start>} to ${3:<end>} {$4}$0"
+        },
+        {
+            "trigger": "each $var in <list or map> {}\t sass",
+            "contents": "@each ${1:\\$var}$2 in ${3:<list or map>} {$4}$0"
+        },
+        {
+            "trigger": "while expression {}\t sass",
+            "contents": "@while ${1:expression} {$2}$0"
+        },
+        {
+            "trigger": "mixin name {}\t sass",
+            "contents": "@mixin ${1:name} {$2}$0"
+        },
+        {
+            "trigger": "mixin name(argument) {}\t sass",
+            "contents": "@mixin ${1:name}(${2:argument}${3}) {$4}$0"
+        },
+        {
+            "trigger": "include mixin;\t sass",
+            "contents": "@include ${1:mixin};$0"
+        },
+        {
+            "trigger": "include mixin(argument) {}\t sass",
+            "contents": "@include ${1:mixin}(${2:argument}${3}) {$4}$0"
+        },
+        {
+            "trigger": "content;\t sass",
+            "contents": "@content;$0"
+        },
+        {
+            "trigger": "function name(argument) { @return value; }\t sass",
+            "contents": "@function ${1:name}(${2:argument}$3) { $4${5:@return ${6:value};} }$0"
+        }
+    ]
+}

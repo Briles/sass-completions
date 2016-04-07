@@ -1,0 +1,33 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "alpha()\t sass",
+            "contents": "alpha(${1:\\$color})$0"
+        },
+        {
+            "trigger": "opacity()\t sass",
+            "contents": "opacity(${1:\\$color})$0"
+        },
+        {
+            "trigger": "rgba()\t sass",
+            "contents": "rgba(${1:\\$color}, ${2:\\$alpha})$0"
+        },
+        {
+            "trigger": "opacify()\t sass",
+            "contents": "opacify(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "fade-in()\t sass",
+            "contents": "fade-in(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "transparentize()\t sass",
+            "contents": "transparentize(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "fade-out()\t sass",
+            "contents": "fade-out(${1:\\$color}, ${2:\\$amount})$0"
+        }
+    ]
+}

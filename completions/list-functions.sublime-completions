@@ -1,0 +1,37 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "length()\t sass",
+            "contents": "length(${1:\\$list})$0"
+        },
+        {
+            "trigger": "nth()\t sass",
+            "contents": "nth(${1:\\$list}, ${2:\\$n})$0"
+        },
+        {
+            "trigger": "set-nth()\t sass",
+            "contents": "set-nth(${1:\\$list}, ${2:\\$n}, ${3:\\$value})$0"
+        },
+        {
+            "trigger": "join()\t sass",
+            "contents": "join(${1:\\$list1}, ${2:\\$list2}, ${3:[\\$separator]})$0"
+        },
+        {
+            "trigger": "append()\t sass",
+            "contents": "append(${1:\\$list1}, ${2:\\$val}, ${3:[\\$separator]})$0"
+        },
+        {
+            "trigger": "zip()\t sass",
+            "contents": "zip(${1:\\$lists…})$0"
+        },
+        {
+            "trigger": "index()\t sass",
+            "contents": "index(${1:\\$list}, ${2:\\$value})$0"
+        },
+        {
+            "trigger": "list-separator()\t sass",
+            "contents": "list-separator(${1:\\$list})$0"
+        }
+    ]
+}

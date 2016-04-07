@@ -1,0 +1,49 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "feature-exists()\t sass",
+            "contents": "feature-exists(${1:\\$feature})$0"
+        },
+        {
+            "trigger": "variable-exists()\t sass",
+            "contents": "variable-exists(${1:\\$name})$0"
+        },
+        {
+            "trigger": "global-variable-exists()\t sass",
+            "contents": "global-variable-exists(${1:\\$name})$0"
+        },
+        {
+            "trigger": "function-exists()\t sass",
+            "contents": "function-exists(${1:\\$name})$0"
+        },
+        {
+            "trigger": "mixin-exists()\t sass",
+            "contents": "mixin-exists(${1:\\$name})$0"
+        },
+        {
+            "trigger": "inspect()\t sass",
+            "contents": "inspect(${1:\\$value})$0"
+        },
+        {
+            "trigger": "type-of()\t sass",
+            "contents": "type-of(${1:\\$value})$0"
+        },
+        {
+            "trigger": "unit()\t sass",
+            "contents": "unit(${1:\\$number})$0"
+        },
+        {
+            "trigger": "unitless()\t sass",
+            "contents": "unitless(${1:\\$number})$0"
+        },
+        {
+            "trigger": "comparable()\t sass",
+            "contents": "comparable(${1:\\$number1}, ${2:\\$number2})$0"
+        },
+        {
+            "trigger": "call()\t sass",
+            "contents": "call(${1:\\$name}, ${2:\\$args…})$0"
+        }
+    ]
+}

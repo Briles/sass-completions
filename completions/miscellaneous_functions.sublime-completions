@@ -1,0 +1,13 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "if()\t sass",
+            "contents": "if(${1:\\$condition}, ${2:\\$if-true}, ${3:\\$if-false})$0"
+        },
+        {
+            "trigger": "unique-id()\t sass",
+            "contents": "unique-id()$0"
+        }
+    ]
+}

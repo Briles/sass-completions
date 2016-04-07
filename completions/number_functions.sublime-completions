@@ -1,0 +1,37 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "percentage()\t sass",
+            "contents": "percentage(${1:\\$number})$0"
+        },
+        {
+            "trigger": "round()\t sass",
+            "contents": "round(${1:\\$number})$0"
+        },
+        {
+            "trigger": "ceil()\t sass",
+            "contents": "ceil(${1:\\$number})$0"
+        },
+        {
+            "trigger": "floor()\t sass",
+            "contents": "floor(${1:\\$number})$0"
+        },
+        {
+            "trigger": "abs()\t sass",
+            "contents": "abs(${1:\\$number})$0"
+        },
+        {
+            "trigger": "min()\t sass",
+            "contents": "min(${1:\\$numbers…})$0"
+        },
+        {
+            "trigger": "max()\t sass",
+            "contents": "max(${1:\\$numbers…})$0"
+        },
+        {
+            "trigger": "random()\t sass",
+            "contents": "random(${1:[\\$limit]})$0"
+        }
+    ]
+}

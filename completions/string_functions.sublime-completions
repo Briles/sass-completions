@@ -1,0 +1,37 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "unquote()\t sass",
+            "contents": "unquote(${1:\\$string})$0"
+        },
+        {
+            "trigger": "quote()\t sass",
+            "contents": "quote(${1:\\$string})$0"
+        },
+        {
+            "trigger": "str-length()\t sass",
+            "contents": "str-length(${1:\\$string})$0"
+        },
+        {
+            "trigger": "str-insert()\t sass",
+            "contents": "str-insert(${1:\\$string}, ${2:\\$insert}, ${3:\\$index})$0"
+        },
+        {
+            "trigger": "str-index()\t sass",
+            "contents": "str-index(${1:\\$string}, ${2:\\$substring})$0"
+        },
+        {
+            "trigger": "str-slice()\t sass",
+            "contents": "str-slice(${1:\\$string}, ${2:\\$start-at}, ${3:[\\$end-at]})$0"
+        },
+        {
+            "trigger": "to-upper-case()\t sass",
+            "contents": "to-upper-case(${1:\\$string})$0"
+        },
+        {
+            "trigger": "to-lower-case()\t sass",
+            "contents": "to-lower-case(${1:\\$string})$0"
+        }
+    ]
+}

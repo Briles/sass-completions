@@ -1,0 +1,37 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "selector-nest()\t sass",
+            "contents": "selector-nest(${1:\\$selectors…})$0"
+        },
+        {
+            "trigger": "selector-append()\t sass",
+            "contents": "selector-append(${1:\\$selectors…})$0"
+        },
+        {
+            "trigger": "selector-extend()\t sass",
+            "contents": "selector-extend(${1:\\$selector}, ${2:\\$extendee}, ${3:\\$extender})$0"
+        },
+        {
+            "trigger": "selector-replace()\t sass",
+            "contents": "selector-replace(${1:\\$selector}, ${2:\\$original}, ${3:\\$replacement})$0"
+        },
+        {
+            "trigger": "selector-unify()\t sass",
+            "contents": "selector-unify(${1:\\$selector1}, ${2:\\$selector2})$0"
+        },
+        {
+            "trigger": "is-superselector()\t sass",
+            "contents": "is-superselector(${1:\\$super}, ${2:\\$sub})$0"
+        },
+        {
+            "trigger": "simple-selectors()\t sass",
+            "contents": "simple-selectors(${1:\\$selector})$0"
+        },
+        {
+            "trigger": "selector-parse()\t sass",
+            "contents": "selector-parse(${1:\\$selector})$0"
+        }
+    ]
+}

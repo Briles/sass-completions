@@ -1,0 +1,57 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "hsl()\t sass",
+            "contents": "hsl(${1:\\$hue}, ${2:\\$saturation}, ${3:\\$lightness})$0"
+        },
+        {
+            "trigger": "hsla()\t sass",
+            "contents": "hsla(${1:\\$hue}, ${2:\\$saturation}, ${3:\\$lightness}, ${4:\\$alpha})$0"
+        },
+        {
+            "trigger": "hue()\t sass",
+            "contents": "hue(${1:\\$color})$0"
+        },
+        {
+            "trigger": "saturation()\t sass",
+            "contents": "saturation(${1:\\$color})$0"
+        },
+        {
+            "trigger": "lightness()\t sass",
+            "contents": "lightness(${1:\\$color})$0"
+        },
+        {
+            "trigger": "adjust-hue()\t sass",
+            "contents": "adjust-hue(${1:\\$color}, ${2:\\$degrees})$0"
+        },
+        {
+            "trigger": "lighten()\t sass",
+            "contents": "lighten(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "darken()\t sass",
+            "contents": "darken(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "saturate()\t sass",
+            "contents": "saturate(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "desaturate()\t sass",
+            "contents": "desaturate(${1:\\$color}, ${2:\\$amount})$0"
+        },
+        {
+            "trigger": "grayscale()\t sass",
+            "contents": "grayscale(${1:\\$color})$0"
+        },
+        {
+            "trigger": "complement()\t sass",
+            "contents": "complement(${1:\\$color})$0"
+        },
+        {
+            "trigger": "invert()\t sass",
+            "contents": "invert(${1:\\$color})$0"
+        }
+    ]
+}

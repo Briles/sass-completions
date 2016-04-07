@@ -1,0 +1,29 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "rgb()\t sass",
+            "contents": "rgb(${1:\\$red}, ${2:\\$green}, ${3:\\$blue})$0"
+        },
+        {
+            "trigger": "rgba()\t sass",
+            "contents": "rgba(${1:\\$red}, ${2:\\$green}, ${3:\\$blue}, ${4:\\$alpha})$0"
+        },
+        {
+            "trigger": "red()\t sass",
+            "contents": "red(${1:\\$color})$0"
+        },
+        {
+            "trigger": "green()\t sass",
+            "contents": "green(${1:\\$color})$0"
+        },
+        {
+            "trigger": "blue()\t sass",
+            "contents": "blue(${1:\\$color})$0"
+        },
+        {
+            "trigger": "mix()\t sass",
+            "contents": "mix(${1:\\$color1}, ${2:\\$color2}, ${3:[\\$weight]})$0"
+        }
+    ]
+}

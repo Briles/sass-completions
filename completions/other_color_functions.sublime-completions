@@ -1,0 +1,21 @@
+{
+    "scope": "source.sass, source.scss",
+    "completions": [
+        {
+            "trigger": "adjust-color()\t sass",
+            "contents": "adjust-color(${1:\\$color}, ${2:[\\$red]}, ${3:[\\$green]}, ${4:[\\$blue]}, ${5:[\\$hue]}, ${6:[\\$saturation]}, ${7:[\\$lightness]}, ${8:[\\$alpha]})$0"
+        },
+        {
+            "trigger": "scale-color()\t sass",
+            "contents": "scale-color(${1:\\$color}, ${2:[\\$red]}, ${3:[\\$green]}, ${4:[\\$blue]}, ${5:[\\$saturation]}, ${6:[\\$lightness]}, ${7:[\\$alpha]})$0"
+        },
+        {
+            "trigger": "change-color()\t sass",
+            "contents": "change-color(${1:\\$color}, ${2:[\\$red]}, ${3:[\\$green]}, ${4:[\\$blue]}, ${5:[\\$hue]}, ${6:[\\$saturation]}, ${7:[\\$lightness]}, ${8:[\\$alpha]})$0"
+        },
+        {
+            "trigger": "ie-hex-str()\t sass",
+            "contents": "ie-hex-str(${1:\\$color})$0"
+        }
+    ]
+}
